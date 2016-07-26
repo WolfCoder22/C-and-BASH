@@ -1,0 +1,83 @@
+### Test outputs of the program####
+
+	1. None
+
+	[flume:chill] 130) ./chill
+
+	Temp  Wind    Chill
+	----    ----    -----
+
+	-10	5	-22.2
+	-10	10	-28.3
+	-10	15	-32.2
+
+	0	5	-10.5
+	0	10	-15.9
+	0	15	-19.3
+
+	10	5	1.2
+	10	10	-3.5
+	10	15	-6.5
+
+	20	5	12.9
+	20	10	8.8
+	20	15	6.2
+
+	30	5	24.7
+	30	10	21.2
+	30	15	19
+
+	40	5	36.4
+	40	10	33.6
+	40	15	31.8
+
+
+	2. 1 
+
+	[flume:chill] 131) ./chill 0
+
+	Temp  Wind    Chill
+	----    ----    -----
+	0	5	-10.5
+	0	10	-15.9
+	0	15	-19.3
+
+	3. 2 paramters
+
+	[flume:chill] 132) ./chill 0 1
+
+	Temp  Wind    Chill
+	----    ----    -----
+	0	1	0
+
+
+
+### testing error handling###
+
+	1. None digit first param
+
+	[flume:chill] 133) ./chill a
+
+	Make sure temperature entered is a digit.
+
+	 ./chill s 4
+
+	Make sure Temperature entered is a digit.
+
+	2. None digit second param (or no 0 before decimal)
+
+	[flume:chill] 134) ./chill 0 s
+
+	Make sure Wind velocity entered is a digit; Ex. 0.7 not .7 or a char
+
+	3. Temp greater than 50
+
+	./chill 500 3
+
+	Temperature must be less than 50 degrees Fahrenheit.
+
+	4. Wind less than .05
+
+	/chill 5 0.1
+
+	Wind velocity must be greater than or equal to 0.5 MPH

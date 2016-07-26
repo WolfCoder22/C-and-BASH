@@ -1,0 +1,36 @@
+** Testing for countertest.c - Alex Wolf, July 2016***
+** Is a copy and pasted output from running counterstest.c**
+
+
+[flume:counters] 208) counterstest
+
+Test adding keys the the counter struct
+----------------------------------------
+Adding key,0
+Adding key,1
+Adding key,5
+Adding key,24
+Adding key,1, second time
+Adding key,1, third time
+Adding key,5, second time
+
+Test getting count of a key in counter struct
+------------------------------------------
+Count of key,0, is 1
+Count of key,1, is 3
+Count of key,5, is 2
+Count of key,24, is 1
+
+Test deleting counters struct
+Printing all counts in struct after deleting
+---------------------------------------------
+Counter with key, 0, and count, 1, deleted propely
+Counter with key, 1, and count, 3, deleted propely
+Counter with key, 5, and count, 2, deleted propely
+Counter with key, 24, and count, 1, deleted propely
+counters struct, ctrs, deleted propely
+
+Test adding or quering counter with invalid key
+In this case is -1 (key can't be int <0)
+-------------------------------------
+ERROR: Key in counters must be int greater than or equal to zero

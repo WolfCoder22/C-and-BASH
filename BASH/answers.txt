@@ -1,0 +1,16 @@
+
+Alex Wolf LAb 1 test answers
+
+
+1. ls -S -d  /net/class/cs50/data/Lab1/photos/*/* | head -10
+2.  find /net/class/cs50/data/Lab1/photos/ -maxdepth 2 -name *.jpg | wc -l
+-3.convert photo.jpg -resize '100x100' photoThumbnail.jpg
+
+    - Need to be in directory of photo.png location during command
+    - produces new thumbnail photoThumbnail.jpg in same directory with max height and width of 100px
+4. var=$(tr '\n' ' ' < header.txt)
+5. exif --ifd=0 --tag=ImageDescription file.jpg --machine-readable
+
+    - Need to be in directory of jpg location
+    - If there is not data there will be an exit status of 1
+6. for i in *jpg; do convert $i ${i/jpg/png}; done

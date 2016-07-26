@@ -1,0 +1,310 @@
+###test proper outputs###
+
+	1. display help when asked then exit
+
+		[flume:dog] 125) dog --help
+		display help here
+
+	2. $$$The whole working ommand test$$$$$
+		[flume:dog] 306) echo testfile2 | dog -n -M mapfile testfile - mapfile
+
+		Showing contents from file named -testfile
+		Each charater decoded from file -mapfile 
+		------------------------------------
+		1   xcbk bk j x5kx zbn5 znz ck50.
+		2   B'h vkbgx bx xn x5kx cng65zxbgx jg6 mzbgxbgx nvx ccjzcx5zk
+		3   Bg jg zbn5 xn kx6bg. 809	72937	03876 sss ^^^
+		4   kjk vvkx 5gx5z56 xn x5kx znz gng n5xx5z cng65zk;;;;
+
+		Showing contents from file named -testfile2
+		Each charater decoded from file -mapfile 
+		------------------------------------
+		4   Zcbk bk jgnxc5z5555 x5kx 7676 zbn5.
+		5   s B'h vkbgx bx xn x5kx znz hvxbmn5 zbn5k ng
+		6   33333 xc5 cnhjg6 -----------.
+
+		Showing contents from file named -mapfile
+		Each charater decoded from file -mapfile 
+		------------------------------------
+		6   j j
+		7   k k
+		8   5 5
+		9   z z
+		10   x x
+		11   c c
+		12   v v
+
+		**THERE IS MORE CONTENT IN MAPFILE BUT DIDN"Y COPY AND PASTE ALL SINCE 70ish lines***
+
+
+###Testing edges on commands####
+	
+	1. Getting command optios properly
+		[flume:dog] 172) dog -M codefile -n file1 -n
+			-M command entered
+			codefile-n command entered
+			-n command entered
+
+
+
+	2. If option M or m given with no arguemnt
+	[flume:dog] 146) dog -M
+		dog: option requires an argument -- 'M'
+		Aborted (core dumped)
+
+	3. Making sure it only reads -m or -M which ever one comes first
+		[flume:dog] 175) dog -m file1 -M file2
+			-m command entered
+			file1
+
+		[flume:dog] 228) dog -m file -M file2
+			-m command entered
+			file-m option already entered. Can't do wih -M
+
+	4. making sure all commands occur before file names
+
+		[flume:dog] 325) dog testfile -n 
+		ran into -n with optid 3
+		Error: The option -n must appear before files 
+
+		[flume:dog] 581) dog -n testfile testfile2 -m mapfile
+		Error: The option -m must appear before files 
+
+	###Testing edges on mapfile analysis###
+
+		1. Make sure mapfile is formatted properlly 'c'' ''c''/n' for each line
+			[flume:dog] 193) dog -m mapfile
+			a b
+			b c
+			c d
+			d ef
+			ERROR: Improperly formatted mapfile
+			-make sure each line is || 'c'' ''c''\n'
+
+			[flume:dog] 194) dog -m mapfile
+			a b
+			b #
+			c =
+			d 
+			ERROR: Improperly formatted mapfile
+			-make sure each line is || 'c'' ''c''\n'
+
+			[flume:dog] 194) dog -m mapfile
+			a b
+			b #
+			ck?
+			ERROR: Improperly formatted mapfile
+			-make sure each line is || 'c'' ''c''\n'
+
+			[flume:dog] 194) dog -m mapfile ##there is a double new line##
+			a b
+			b #
+			c k
+
+			ERROR: Improperly formatted mapfile
+			-make sure each line is || 'c'' ''c''\n'
+
+		2. Make sure in Mapfile if both charcters in ecnoding+decoding chars are same case
+
+		[flume:dog] 217) dog -m mapfile
+		a b
+		b #
+		c K
+		not both lower or upper
+		C f
+		not both lower or upper
+		f g
+		M h
+		not both lower or upper
+		h L
+		not both lower or upper
+
+		3. Make sure no doubles as first char or second
+		*** added check line for each error; didn't show earlier****
+		[flume:dog] 262) dog -m mapfile
+		q a
+		w s
+		e d
+		r f
+		r m
+		ERROR: double orginal char in mapfile
+		Check first charcter in line number 5 and 4 in mapfile
+
+		[flume:dog] 263) dog -m mapfile
+		q a
+		w s
+		e d
+		r f
+		b f
+		ERROR: double decoding char in mapfile
+		Check second charcter in line number 5 and 4 in mapfile
+
+		4. check if encoding worked in stored arrays
+
+		[flume:dog] 268) dog -m mapfile
+		Orginal char|encrpyted char
+		q|a
+		w|s
+		e|d
+		r|f
+		t|g
+		y|h
+		u|j
+		i|k
+		o|l
+		p|z
+		a|x
+		s|c
+		d|v
+		f|b
+		g|n
+		h|m
+		j|q
+		k|w
+		l|e
+		z|r
+		x|t
+		c|y
+		v|u
+		b|i
+		n|o
+		m|p
+
+	###Testing Edges on anlyzing file input###
+
+		1. Read from stdin when no file entered
+			[flume:dog] 298) dog -m mapfile
+			Dog from StdIn
+
+		2.Recongnizing a file input doesn't exists
+
+		[flume:dog] 112) cat nofile| dog
+		cat: nofile No such file or directory
+		ERROR: Couldn't open file (null). May not exists
+
+		3. Testing mutiple files as inputs
+		4. Also testing recongnized the -m and -M commands when printing files
+
+			[flume:dog] 197) dog -m mapfile testfile testfile2
+
+			Showing contents of file
+			named -testfile with each charater encoded from file- mapfile 
+			------------------------------------
+			this is a test file for cs50.
+			I'm using it to test converting and printing out charcters
+			In an file to stdin. 809	72937	03876 &&& ^^^
+			was just entered to test for non letter convers;;;;
+
+			Showing contents of file
+			named -testfile2 with each charater encoded from file- mapfile 
+			------------------------------------
+			This is another5555 test 7676 file.
+			& I'm using it to test for mutiple files on
+			***** the comand -----------.
+
+		5.gets stdin as string when there
+			[flume:dog] 281) echo testfile | dog
+
+			testfile
+
+		6. propely reads filename from strd
+
+			[flume:dog] 302) echo testfile | dog
+
+			Showing contents of file named -testfile
+			------------------------------------
+			this is a test file for cs50.
+			I'm using it to test converting and printing out charcters
+			In an file to stdin. 809	72937	03876 &&& ^^^
+			was just entered to test for non letter convers;;;;
+
+	###encoding/ decoding files########
+
+		1. testing encoding -m works properly
+
+			[flume:dog] 233) dog -m mapfile testfile testfile2
+
+			Showing contents from file named -testfile
+			Each charater encoded from file -mapfile 
+			------------------------------------
+			opw& w& t o+&o "w>+ ">" y&e0.
+			E'p q&woo wo o> o+&o y>ou+"owoo tou r"woowoo >qo ypt"yo+"&
+			Eo to "w>+ o> &ouwo. 809	7\9*7	0*87d &&& ^^^
+			&t& qq&o +oo+"+u o> o+&o ">" o>o >+oo+" y>ou+"&;;;;
+
+			Showing contents from file named -testfile2
+			Each charater encoded from file -mapfile 
+			------------------------------------
+			Ppw& w& to>op+"eeee o+&o 7d7d "w>+.
+			& E'p q&woo wo o> o+&o ">" pqowr>+ "w>+& >o
+			***** op+ y>ptou -----------.
+
+		2. testing -M (decode) works properly
+			-file input not encoded so looks encoded isntead of decoded
+
+			[flume:dog] 233) dog -M mapfile testfile testfile2
+
+			Showing contents from file named -testfile
+			Each charater decoded from file -mapfile 
+			------------------------------------
+			xcbk bk j x5kx zbn5 znz ck50.
+			B'h vkbgx bx xn x5kx cng65zxbgx jg6 mzbgxbgx nvx ccjzcx5zk
+			Bg jg zbn5 xn kx6bg. 809	72937	03876 sss ^^^
+			kjk vvkx 5gx5z56 xn x5kx znz gng n5xx5z cng65zk;;;;
+
+			Showing contents from file named -testfile2
+			Each charater decoded from file -mapfile 
+			------------------------------------
+			Zcbk bk jgnxc5z5555 x5kx 7676 zbn5.
+			s B'h vkbgx bx xn x5kx znz hvxbmn5 zbn5k ng
+			33333 xc5 cnhjg6 -----------.
+
+
+	##### SHowing line numbers ########
+		1. [flume:dog] 254) dog -n testfile testfile2
+
+		 Showing contents of file named -testfile
+		 ------------------------------------
+		 	1   this is a test file for cs50.
+		 	2   I'm using it to test converting and printing out charcters
+		 	3   In an file to stdin. 809	72937	03876 &&& ^^^
+			4   was just entered to test for non letter convers;;;;
+
+		 Showing contents of file named -testfile2
+		 ------------------------------------
+			4   This is another5555 test 7676 file.
+			5   & I'm using it to test for mutiple files on
+			6   ***** the comand -----------.
+
+		2. With encodings
+
+			[flume:dog] 255) dog -m mapfile -n testfile testfile2
+
+			Showing contents from file named -testfile
+			Each charater encoded from file -mapfile 
+			------------------------------------
+				1   opw& w& t o+&o "w>+ ">" y&e0.
+				2   E'p q&woo wo o> o+&o y>ou+"owoo tou r"woowoo >qo ypt"yo+"&
+				3   Eo to "w>+ o> &ouwo. 809	7\9*7	0*87d &&& ^^^
+				4   &t& qq&o +oo+"+u o> o+&o ">" o>o >+oo+" y>ou+"&;;;;
+
+			Showing contents from file named -testfile2
+			Each charater encoded from file -mapfile 
+			------------------------------------
+				4   Ppw& w& to>op+"eeee o+&o 7d7d "w>+.
+				5   & E'p q&woo wo o> o+&o ">" pqowr>+ "w>+& >o
+				6   ***** op+ y>ptou -----------.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

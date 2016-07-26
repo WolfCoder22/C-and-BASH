@@ -1,0 +1,26 @@
+** Testing for bagtest.c - Alex Wolf, July 2016***
+** Is a copy and pasted output from running bagtest.c**
+** Test to see if struct bag works properly **
+
+[flume:bag] 159) bagtest
+Inserted -"Dartmouth" and '@' into the bag
+
+Extrating all data now
+----------------------
+Final count of bag nodes left in bag is 1
+Final count of bag nodes left in bag is 0
+
+@, is first data (string) extrated item from the bag.
+Dartmouth, is third data (string) extrated item from the bag.
+
+Test if extracting a item from an empty bag returns null
+--------------------------------------------------------
+The past extraction was null; the extration-(null)
+Inserted -"Dartmouth", and '@' into the bag
+
+Void * data in bagData deleted properly!
+Bag number 1 deleted propely
+Void * data in bagData deleted properly!
+Bag number 2 deleted propely
+bag struct deleted propely
+

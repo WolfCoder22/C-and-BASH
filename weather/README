@@ -1,0 +1,52 @@
+README for weather.c example
+Alex Wolf, July 2016
+
+Compiling:
+	make
+
+Usage:
+/* 
+ * subtemplate.c - substitute text into a template file
+ * 
+ * usage: weather target replacement
+ * where:
+ *   target is a string to be replaced wherever it appears in the input;
+ *   replacement is a filename for file containing replacement text. Data wanted to 
+ *   retrieve is in string array webdata
+ * output:
+ *   Prints errors propelry if can't get web data. Prints "credit","location",    
+ *   "station_id", "observation_time", "weather", "temperature_string", 
+ *  "relative_humidity", "visibility_mi","wind_string" of the desired   
+ * weatherstation   
+
+ * stdin: None
+ * stdout: the modified template
+ * stderr: error messages
+ *
+ * Alex Wolf, July 2016
+ */
+
+Example command lines:
+
+  weather RETY
+  weather PLDI
+
+Exit status:
+  0 - success
+  1 - incorrect arguements
+  2- error performing curl
+  3- Station Code information couldn't be retrived
+
+
+
+Assumptions:
+
+- None all errors printed. Assumes is connected to internet and knows Codes of desired station
+-Arguemnts enetered properly
+
+"Non"-Assumptions:
+None realy
+
+Limitations:
+
+- certain types of weather codes will fail since they don't exist or trouble getting data

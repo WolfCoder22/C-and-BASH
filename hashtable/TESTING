@@ -1,0 +1,29 @@
+** Testing for hashtabletest.c - Alex Wolf, July 2016***
+** Is a copy and pasted output from running hashtabletest.c**
+
+[flume:hashtable] 129) hashtabletest
+
+Test inseting data into hashtable with different keys
+------------------------------------------------------
+Data -Appple- inserted sucessfully in hashtable with key aaba
+Data -Bannana- inserted sucessfully in hashtable with key weev
+Data -Pear- inserted sucessfully in hashtable with key lol
+Data -Stawberry- inserted sucessfully in hashtable with key lmfao
+Data -24- inserted sucessfully in hashtable with key rofl
+Data -99- inserted sucessfully in hashtable with key cs
+Data -&@!#*- inserted sucessfully in hashtable with key keyzin
+Data -42- inserted sucessfully in hashtable with key hashtables
+
+Test inseting data into hashtable that already exists
+------------------------------------------------------
+Data -Appple- already exists in hashtable with key aaba
+Data -24- already exists in hashtable with key rofl
+
+Test finding data into hashtable that exists
+---------------------------------------------
+Appple, is data found in hashtable from key aaba
+24, is data found in hashtable from key weev
+(null), is data found in hashtable from key XXX
+Test deleting the hashtable
+---------------------------
+Hashtable struct deleted propely!!!

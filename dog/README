@@ -1,0 +1,74 @@
+README for dog.c 
+Alex Wolf, July 2016
+
+
+Compiling Dog:
+ make
+
+Usage:
+/* 
+ * 
+ * usage: read list of files and diapky on screen. Change charcters directed by -m -M and show line numbers with -n
+ *
+ *use - for file name to come from stardin 
+ * Will read filenmae fromstdin in no filenames given
+ * 
+ * output:
+ *   read the stdin, copying it to stdout, but wherever the 
+ *   target text is found, replace it with the contents of the 
+ *   replacement file.
+ * stdin: the input template
+ * stdout: the modified template
+ * stderr: error messages
+ *
+ * Alex Wolf, July 2016
+ */
+
+Execution: 
+   *Paramerters*
+        -include 3 possible options -n and -m and -M
+   		 -n  means a number should be outputted to the left of each line
+   		-m means says to decipher a files with a filename right after -m
+   		-M is the same thing as -m for -M except it decodes from the mapfile instead of encode. 
+      -make sure all options go before file names that should be entered after
+
+    *Encoding file structure after option -m or -M*
+    -Mapfile should have for each line a any ASCII char, then a space, then another ASCII char then a new line.
+    -if both are letters must be the same case(both upper or both lower)
+    -EX. a b'\n'
+
+    For getting from stdIN
+      -if no stdin was piped must type file name when shell script stops and hit enter
+          -will print files listed before - on command line then pause script foyou to bring in std and hit enter
+
+Example command lines:
+
+  echo testfile2 | dog -n -M mapfile testfile - mapfile
+  dog -
+  dog -m mapfile -n testfile
+  dog --help
+
+Exit status:
+  0 - success
+  1 - incorrect number of arguments
+  2 - incorrect mapfile format
+  3 - cannot open replacement file
+  4 - error during input
+
+Errors:
+  Will be primted out including line number in encoding file
+
+  Assumptions:
+  	Mapping chars from mapfile
+   	-all ASCII charcters can pe passed in the mapfile no just letters
+   	-Mapfile's last line has a \n after it
+   	-*** SINCE INCLUDING ALL ASCII chars in encodings*** map file can be great than 26 lines
+
+   	Calling -m or -M
+   	--there is an input of stdIn or program won't execute
+
+    Getting file name form stdin
+    -the stdin is only one file
+    - if no stdin the user while have type type it after the dog command and hit enter
+
+
