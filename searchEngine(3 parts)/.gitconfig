@@ -1,0 +1,7 @@
+[user]
+	name = Alexander Wolf
+	email = alexander.r.wolf.18@dartmouth.edu
+[core]
+	editor = vi
+[color]
+	ui = true
