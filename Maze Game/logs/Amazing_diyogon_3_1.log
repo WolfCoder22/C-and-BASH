@@ -1,0 +1,135 @@
+diyogon 42351 Sun Aug 28 17:13:51 2016
+
+Avatar 0:(2,0) Moving east.
+0:(3,0) 1:(2,5) 2:(4,4) Avatar 1:(2,5) Moving north.
+0:(3,0) 1:(2,5) 2:(4,4) Avatar 2:(4,4) Moving north.
+0:(3,0) 1:(2,5) 2:(4,4) Avatar 0:(3,0) Moving east.
+0:(3,0) 1:(2,5) 2:(4,4) Avatar 1:(2,5) Moving east.
+0:(3,0) 1:(2,5) 2:(4,4) Avatar 2:(4,4) Moving east.
+0:(3,0) 1:(2,5) 2:(5,4) Avatar 0:(3,0) Moving south.
+0:(3,0) 1:(2,5) 2:(5,4) Avatar 1:(2,5) Moving south.
+0:(3,0) 1:(2,6) 2:(5,4) Avatar 2:(5,4) Moving north.
+0:(3,0) 1:(2,6) 2:(5,3) Avatar 0:(3,0) Moving west.
+0:(2,0) 1:(2,6) 2:(5,3) Avatar 1:(2,6) Moving east.
+0:(2,0) 1:(2,6) 2:(5,3) Avatar 2:(5,3) Moving north.
+0:(2,0) 1:(2,6) 2:(5,2) Avatar 0:(2,0) Moving south.
+0:(2,1) 1:(2,6) 2:(5,2) Avatar 1:(2,6) Moving south.
+0:(2,1) 1:(2,7) 2:(5,2) Avatar 2:(5,2) Moving north.
+0:(2,1) 1:(2,7) 2:(5,1) Avatar 0:(2,1) Moving east.
+0:(3,1) 1:(2,7) 2:(5,1) Avatar 1:(2,7) Moving east.
+0:(3,1) 1:(2,7) 2:(5,1) Avatar 2:(5,1) Moving north.
+0:(3,1) 1:(2,7) 2:(5,0) Avatar 0:(3,1) Moving east.
+0:(4,1) 1:(2,7) 2:(5,0) Avatar 1:(2,7) Moving south.
+0:(4,1) 1:(2,8) 2:(5,0) Avatar 2:(5,0) Moving west.
+0:(4,1) 1:(2,8) 2:(4,0) Avatar 0:(4,1) Moving north.
+0:(4,0) 1:(2,8) 2:(4,0) Avatar 1:(2,8) Moving east.
+0:(4,0) 1:(3,8) 2:(4,0) Avatar 2:(4,0) Moving south.
+0:(4,0) 1:(3,8) 2:(4,1) Avatar 0:(4,0) Moving south.
+0:(4,1) 1:(3,8) 2:(4,1) Avatar 1:(3,8) Moving north.
+0:(4,1) 1:(3,8) 2:(4,1) Avatar 2:(4,1) Moving east.
+0:(4,1) 1:(3,8) 2:(4,1) Avatar 0:(4,1) Sleeping.
+0:(4,1) 1:(3,8) 2:(4,1) Avatar 1:(3,8) Moving east.
+0:(4,1) 1:(4,8) 2:(4,1) Avatar 2:(4,1) Moving south.
+0:(4,1) 1:(4,8) 2:(4,1) Avatar 0:(4,1) Sleeping.
+0:(4,1) 1:(4,8) 2:(4,1) Avatar 1:(4,8) Moving north.
+0:(4,1) 1:(4,8) 2:(4,1) Avatar 2:(4,1) Moving west.
+0:(4,1) 1:(4,8) 2:(3,1) Avatar 0:(4,1) Moving west.
+0:(3,1) 1:(4,8) 2:(3,1) Avatar 1:(4,8) Moving east.
+0:(3,1) 1:(5,8) 2:(3,1) Avatar 2:(3,1) Moving south.
+0:(3,1) 1:(5,8) 2:(3,1) Avatar 0:(3,1) Sleeping.
+0:(3,1) 1:(5,8) 2:(3,1) Avatar 1:(5,8) Moving north.
+0:(3,1) 1:(5,7) 2:(3,1) Avatar 2:(3,1) Moving west.
+0:(3,1) 1:(5,7) 2:(2,1) Avatar 0:(3,1) Moving west.
+0:(2,1) 1:(5,7) 2:(2,1) Avatar 1:(5,7) Moving north.
+0:(2,1) 1:(5,7) 2:(2,1) Avatar 2:(2,1) Moving south.
+0:(2,1) 1:(5,7) 2:(2,1) Avatar 0:(2,1) Sleeping.
+0:(2,1) 1:(5,7) 2:(2,1) Avatar 1:(5,7) Moving west.
+0:(2,1) 1:(5,7) 2:(2,1) Avatar 2:(2,1) Moving west.
+0:(2,1) 1:(5,7) 2:(2,1) Avatar 0:(2,1) Sleeping.
+0:(2,1) 1:(5,7) 2:(2,1) Avatar 1:(5,7) Moving south.
+0:(2,1) 1:(5,8) 2:(2,1) Avatar 2:(2,1) Moving north.
+0:(2,1) 1:(5,8) 2:(2,0) Avatar 0:(2,1) Moving north.
+0:(2,0) 1:(5,8) 2:(2,0) Avatar 1:(5,8) Moving west.
+0:(2,0) 1:(4,8) 2:(2,0) Avatar 2:(2,0) Moving west.
+0:(2,0) 1:(4,8) 2:(1,0) Avatar 0:(2,0) Moving west.
+0:(1,0) 1:(4,8) 2:(1,0) Avatar 1:(4,8) Moving west.
+0:(1,0) 1:(3,8) 2:(1,0) Avatar 2:(1,0) Moving south.
+0:(1,0) 1:(3,8) 2:(1,1) Avatar 0:(1,0) Moving south.
+0:(1,1) 1:(3,8) 2:(1,1) Avatar 1:(3,8) Moving west.
+0:(1,1) 1:(2,8) 2:(1,1) Avatar 2:(1,1) Moving south.
+0:(1,1) 1:(2,8) 2:(1,2) Avatar 0:(1,1) Moving south.
+0:(1,2) 1:(2,8) 2:(1,2) Avatar 1:(2,8) Moving west.
+0:(1,2) 1:(1,8) 2:(1,2) Avatar 2:(1,2) Moving east.
+0:(1,2) 1:(1,8) 2:(2,2) Avatar 0:(1,2) Moving east.
+0:(2,2) 1:(1,8) 2:(2,2) Avatar 1:(1,8) Moving north.
+0:(2,2) 1:(1,7) 2:(2,2) Avatar 2:(2,2) Moving east.
+0:(2,2) 1:(1,7) 2:(2,2) Avatar 0:(2,2) Sleeping.
+0:(2,2) 1:(1,7) 2:(2,2) Avatar 1:(1,7) Moving north.
+0:(2,2) 1:(1,7) 2:(2,2) Avatar 2:(2,2) Moving south.
+0:(2,2) 1:(1,7) 2:(2,3) Avatar 0:(2,2) Moving south.
+0:(2,3) 1:(1,7) 2:(2,3) Avatar 1:(1,7) Moving east.
+0:(2,3) 1:(1,7) 2:(2,3) Avatar 2:(2,3) Moving east.
+0:(2,3) 1:(1,7) 2:(3,3) Avatar 0:(2,3) Moving east.
+0:(3,3) 1:(1,7) 2:(3,3) Avatar 1:(1,7) Moving west.
+0:(3,3) 1:(0,7) 2:(3,3) Avatar 2:(3,3) Moving north.
+0:(3,3) 1:(0,7) 2:(3,3) Avatar 0:(3,3) Sleeping.
+0:(3,3) 1:(0,7) 2:(3,3) Avatar 1:(0,7) Moving north.
+0:(3,3) 1:(0,7) 2:(3,3) Avatar 2:(3,3) Moving east.
+0:(3,3) 1:(0,7) 2:(4,3) Avatar 0:(3,3) Moving east.
+0:(4,3) 1:(0,7) 2:(4,3) Avatar 1:(0,7) Moving south.
+0:(4,3) 1:(0,8) 2:(4,3) Avatar 2:(4,3) Moving north.
+0:(4,3) 1:(0,8) 2:(4,2) Avatar 0:(4,3) Moving north.
+0:(4,2) 1:(0,8) 2:(4,2) Avatar 1:(0,8) Moving east.
+0:(4,2) 1:(0,8) 2:(4,2) Avatar 2:(4,2) Moving east.
+0:(4,2) 1:(0,8) 2:(4,2) Avatar 0:(4,2) Moving south.
+0:(4,3) 1:(0,8) 2:(4,2) Avatar 1:(0,8) Moving north.
+0:(4,3) 1:(0,7) 2:(4,2) Avatar 2:(4,2) Moving south.
+0:(4,3) 1:(0,7) 2:(4,3) Avatar 0:(4,3) Sleeping.
+0:(4,3) 1:(0,7) 2:(4,3) Avatar 1:(0,7) Moving east.
+0:(4,3) 1:(1,7) 2:(4,3) Avatar 2:(4,3) Moving east.
+0:(4,3) 1:(1,7) 2:(4,3) Avatar 0:(4,3) Moving west.
+0:(3,3) 1:(1,7) 2:(4,3) Avatar 1:(1,7) Moving south.
+0:(3,3) 1:(1,8) 2:(4,3) Avatar 2:(4,3) Moving west.
+0:(3,3) 1:(1,8) 2:(3,3) Avatar 0:(3,3) Sleeping.
+0:(3,3) 1:(1,8) 2:(3,3) Avatar 1:(1,8) Moving east.
+0:(3,3) 1:(2,8) 2:(3,3) Avatar 2:(3,3) Moving south.
+0:(3,3) 1:(2,8) 2:(3,3) Avatar 0:(3,3) Moving west.
+0:(2,3) 1:(2,8) 2:(3,3) Avatar 1:(2,8) Moving north.
+0:(2,3) 1:(2,7) 2:(3,3) Avatar 2:(3,3) Moving west.
+0:(2,3) 1:(2,7) 2:(2,3) Avatar 0:(2,3) Sleeping.
+0:(2,3) 1:(2,7) 2:(2,3) Avatar 1:(2,7) Moving north.
+0:(2,3) 1:(2,6) 2:(2,3) Avatar 2:(2,3) Moving south.
+0:(2,3) 1:(2,6) 2:(2,3) Avatar 0:(2,3) Sleeping.
+0:(2,3) 1:(2,6) 2:(2,3) Avatar 1:(2,6) Moving west.
+0:(2,3) 1:(2,6) 2:(2,3) Avatar 2:(2,3) Moving west.
+0:(2,3) 1:(2,6) 2:(2,3) Avatar 0:(2,3) Moving north.
+0:(2,2) 1:(2,6) 2:(2,3) Avatar 1:(2,6) Moving north.
+0:(2,2) 1:(2,5) 2:(2,3) Avatar 2:(2,3) Moving north.
+0:(2,2) 1:(2,5) 2:(2,2) Avatar 0:(2,2) Moving west.
+0:(1,2) 1:(2,5) 2:(2,2) Avatar 1:(2,5) Moving west.
+0:(1,2) 1:(1,5) 2:(2,2) Avatar 2:(2,2) Moving west.
+0:(1,2) 1:(1,5) 2:(1,2) Avatar 0:(1,2) Sleeping.
+0:(1,2) 1:(1,5) 2:(1,2) Avatar 1:(1,5) Moving north.
+0:(1,2) 1:(1,5) 2:(1,2) Avatar 2:(1,2) Moving south.
+0:(1,2) 1:(1,5) 2:(1,2) Avatar 0:(1,2) Sleeping.
+0:(1,2) 1:(1,5) 2:(1,2) Avatar 1:(1,5) Moving south.
+0:(1,2) 1:(1,6) 2:(1,2) Avatar 2:(1,2) Moving west.
+0:(1,2) 1:(1,6) 2:(0,2) Avatar 0:(1,2) Moving west.
+0:(0,2) 1:(1,6) 2:(0,2) Avatar 1:(1,6) Moving west.
+0:(0,2) 1:(0,6) 2:(0,2) Avatar 2:(0,2) Moving north.
+0:(0,2) 1:(0,6) 2:(0,1) Avatar 0:(0,2) Moving north.
+0:(0,1) 1:(0,6) 2:(0,1) Avatar 1:(0,6) Moving north.
+0:(0,1) 1:(0,5) 2:(0,1) Avatar 2:(0,1) Moving north.
+0:(0,1) 1:(0,5) 2:(0,0) Avatar 0:(0,1) Moving north.
+0:(0,0) 1:(0,5) 2:(0,0) Avatar 1:(0,5) Moving north.
+0:(0,0) 1:(0,4) 2:(0,0) Avatar 2:(0,0) Moving east.
+0:(0,0) 1:(0,4) 2:(0,0) Avatar 0:(0,0) Moving south.
+0:(0,1) 1:(0,4) 2:(0,0) Avatar 1:(0,4) Moving north.
+0:(0,1) 1:(0,3) 2:(0,0) Avatar 2:(0,0) Moving south.
+0:(0,1) 1:(0,3) 2:(0,1) Avatar 0:(0,1) Sleeping.
+0:(0,1) 1:(0,3) 2:(0,1) Avatar 1:(0,3) Moving north.
+0:(0,1) 1:(0,2) 2:(0,1) Avatar 2:(0,1) Moving east.
+0:(0,1) 1:(0,2) 2:(0,1) Avatar 0:(0,1) Moving south.
+0:(0,2) 1:(0,2) 2:(0,1) Avatar 1:(0,2) Sleeping.
+0:(0,2) 1:(0,2) 2:(0,1) Avatar 2:(0,1) Moving south.
+AM_MAZE_SOLVED 3 1 131 1818311687

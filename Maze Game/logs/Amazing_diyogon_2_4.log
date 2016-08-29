@@ -1,0 +1,420 @@
+diyogon 37671 Sun Aug 28 17:16:23 2016
+
+Avatar 0:(21,12) Moving north.
+0:(21,12) 1:(15,4) Avatar 1:(15,4) Moving north.
+0:(21,12) 1:(15,4) Avatar 0:(21,12) Moving east.
+0:(21,12) 1:(15,4) Avatar 1:(15,4) Moving east.
+0:(21,12) 1:(16,4) Avatar 0:(21,12) Moving south.
+0:(21,13) 1:(16,4) Avatar 1:(16,4) Moving north.
+0:(21,13) 1:(16,3) Avatar 0:(21,13) Moving east.
+0:(21,13) 1:(16,3) Avatar 1:(16,3) Moving north.
+0:(21,13) 1:(16,3) Avatar 0:(21,13) Moving south.
+0:(21,14) 1:(16,3) Avatar 1:(16,3) Moving east.
+0:(21,14) 1:(16,3) Avatar 0:(21,14) Moving east.
+0:(21,14) 1:(16,3) Avatar 1:(16,3) Moving west.
+0:(21,14) 1:(16,3) Avatar 0:(21,14) Moving south.
+0:(21,15) 1:(16,3) Avatar 1:(16,3) Moving south.
+0:(21,15) 1:(16,4) Avatar 0:(21,15) Moving east.
+0:(21,15) 1:(16,4) Avatar 1:(16,4) Moving east.
+0:(21,15) 1:(16,4) Avatar 0:(21,15) Moving south.
+0:(21,15) 1:(16,4) Avatar 1:(16,4) Moving south.
+0:(21,15) 1:(16,4) Avatar 0:(21,15) Moving west.
+0:(21,15) 1:(16,4) Avatar 1:(16,4) Moving west.
+0:(21,15) 1:(15,4) Avatar 0:(21,15) Moving north.
+0:(21,14) 1:(15,4) Avatar 1:(15,4) Moving south.
+0:(21,14) 1:(15,5) Avatar 0:(21,14) Moving west.
+0:(21,14) 1:(15,5) Avatar 1:(15,5) Moving east.
+0:(21,14) 1:(16,5) Avatar 0:(21,14) Moving north.
+0:(21,13) 1:(16,5) Avatar 1:(16,5) Moving east.
+0:(21,13) 1:(17,5) Avatar 0:(21,13) Moving west.
+0:(20,13) 1:(17,5) Avatar 1:(17,5) Moving north.
+0:(20,13) 1:(17,5) Avatar 0:(20,13) Moving north.
+0:(20,13) 1:(17,5) Avatar 1:(17,5) Moving east.
+0:(20,13) 1:(17,5) Avatar 0:(20,13) Moving south.
+0:(20,14) 1:(17,5) Avatar 1:(17,5) Moving south.
+0:(20,14) 1:(17,6) Avatar 0:(20,14) Moving south.
+0:(20,15) 1:(17,6) Avatar 1:(17,6) Moving east.
+0:(20,15) 1:(17,6) Avatar 0:(20,15) Moving south.
+0:(20,16) 1:(17,6) Avatar 1:(17,6) Moving south.
+0:(20,16) 1:(17,6) Avatar 0:(20,16) Moving east.
+0:(21,16) 1:(17,6) Avatar 1:(17,6) Moving west.
+0:(21,16) 1:(16,6) Avatar 0:(21,16) Moving east.
+0:(21,16) 1:(16,6) Avatar 1:(16,6) Moving north.
+0:(21,16) 1:(16,6) Avatar 0:(21,16) Moving south.
+0:(21,17) 1:(16,6) Avatar 1:(16,6) Moving south.
+0:(21,17) 1:(16,7) Avatar 0:(21,17) Moving east.
+0:(21,17) 1:(16,7) Avatar 1:(16,7) Moving east.
+0:(21,17) 1:(17,7) Avatar 0:(21,17) Moving south.
+0:(21,18) 1:(17,7) Avatar 1:(17,7) Moving east.
+0:(21,18) 1:(18,7) Avatar 0:(21,18) Moving east.
+0:(22,18) 1:(18,7) Avatar 1:(18,7) Moving north.
+0:(22,18) 1:(18,6) Avatar 0:(22,18) Moving north.
+0:(22,17) 1:(18,6) Avatar 1:(18,6) Moving north.
+0:(22,17) 1:(18,5) Avatar 0:(22,17) Moving north.
+0:(22,16) 1:(18,5) Avatar 1:(18,5) Moving north.
+0:(22,16) 1:(18,4) Avatar 0:(22,16) Moving north.
+0:(22,15) 1:(18,4) Avatar 1:(18,4) Moving north.
+0:(22,15) 1:(18,4) Avatar 0:(22,15) Moving north.
+0:(22,14) 1:(18,4) Avatar 1:(18,4) Moving east.
+0:(22,14) 1:(18,4) Avatar 0:(22,14) Moving north.
+0:(22,14) 1:(18,4) Avatar 1:(18,4) Moving west.
+0:(22,14) 1:(17,4) Avatar 0:(22,14) Moving east.
+0:(23,14) 1:(17,4) Avatar 1:(17,4) Moving north.
+0:(23,14) 1:(17,3) Avatar 0:(23,14) Moving north.
+0:(23,14) 1:(17,3) Avatar 1:(17,3) Moving north.
+0:(23,14) 1:(17,2) Avatar 0:(23,14) Moving east.
+0:(24,14) 1:(17,2) Avatar 1:(17,2) Moving north.
+0:(24,14) 1:(17,2) Avatar 0:(24,14) Moving north.
+0:(24,14) 1:(17,2) Avatar 1:(17,2) Moving east.
+0:(24,14) 1:(17,2) Avatar 0:(24,14) Moving south.
+0:(24,15) 1:(17,2) Avatar 1:(17,2) Moving west.
+0:(24,15) 1:(16,2) Avatar 0:(24,15) Moving south.
+0:(24,16) 1:(16,2) Avatar 1:(16,2) Moving north.
+0:(24,16) 1:(16,2) Avatar 0:(24,16) Moving south.
+0:(24,17) 1:(16,2) Avatar 1:(16,2) Moving west.
+0:(24,17) 1:(15,2) Avatar 0:(24,17) Moving south.
+0:(24,18) 1:(15,2) Avatar 1:(15,2) Moving north.
+0:(24,18) 1:(15,2) Avatar 0:(24,18) Moving south.
+0:(24,19) 1:(15,2) Avatar 1:(15,2) Moving south.
+0:(24,19) 1:(15,3) Avatar 0:(24,19) Moving south.
+0:(24,20) 1:(15,3) Avatar 1:(15,3) Moving west.
+0:(24,20) 1:(14,3) Avatar 0:(24,20) Moving south.
+0:(24,21) 1:(14,3) Avatar 1:(14,3) Moving north.
+0:(24,21) 1:(14,3) Avatar 0:(24,21) Moving south.
+0:(24,22) 1:(14,3) Avatar 1:(14,3) Moving south.
+0:(24,22) 1:(14,3) Avatar 0:(24,22) Moving south.
+0:(24,22) 1:(14,3) Avatar 1:(14,3) Moving west.
+0:(24,22) 1:(13,3) Avatar 0:(24,22) Moving west.
+0:(23,22) 1:(13,3) Avatar 1:(13,3) Moving north.
+0:(23,22) 1:(13,3) Avatar 0:(23,22) Moving north.
+0:(23,22) 1:(13,3) Avatar 1:(13,3) Moving south.
+0:(23,22) 1:(13,4) Avatar 0:(23,22) Moving south.
+0:(23,22) 1:(13,4) Avatar 1:(13,4) Moving east.
+0:(23,22) 1:(14,4) Avatar 0:(23,22) Moving west.
+0:(22,22) 1:(14,4) Avatar 1:(14,4) Moving east.
+0:(22,22) 1:(14,4) Avatar 0:(22,22) Moving north.
+0:(22,21) 1:(14,4) Avatar 1:(14,4) Moving south.
+0:(22,21) 1:(14,5) Avatar 0:(22,21) Moving north.
+0:(22,21) 1:(14,5) Avatar 1:(14,5) Moving east.
+0:(22,21) 1:(14,5) Avatar 0:(22,21) Moving east.
+0:(23,21) 1:(14,5) Avatar 1:(14,5) Moving south.
+0:(23,21) 1:(14,6) Avatar 0:(23,21) Moving north.
+0:(23,21) 1:(14,6) Avatar 1:(14,6) Moving east.
+0:(23,21) 1:(15,6) Avatar 0:(23,21) Moving east.
+0:(23,21) 1:(15,6) Avatar 1:(15,6) Moving north.
+0:(23,21) 1:(15,6) Avatar 0:(23,21) Moving west.
+0:(22,21) 1:(15,6) Avatar 1:(15,6) Moving east.
+0:(22,21) 1:(15,6) Avatar 0:(22,21) Moving west.
+0:(22,21) 1:(15,6) Avatar 1:(15,6) Moving south.
+0:(22,21) 1:(15,7) Avatar 0:(22,21) Moving south.
+0:(22,22) 1:(15,7) Avatar 1:(15,7) Moving east.
+0:(22,22) 1:(15,7) Avatar 0:(22,22) Moving south.
+0:(22,23) 1:(15,7) Avatar 1:(15,7) Moving south.
+0:(22,23) 1:(15,7) Avatar 0:(22,23) Moving east.
+0:(23,23) 1:(15,7) Avatar 1:(15,7) Moving west.
+0:(23,23) 1:(14,7) Avatar 0:(23,23) Moving east.
+0:(24,23) 1:(14,7) Avatar 1:(14,7) Moving north.
+0:(24,23) 1:(14,7) Avatar 0:(24,23) Moving south.
+0:(24,24) 1:(14,7) Avatar 1:(14,7) Moving south.
+0:(24,24) 1:(14,8) Avatar 0:(24,24) Moving west.
+0:(23,24) 1:(14,8) Avatar 1:(14,8) Moving east.
+0:(23,24) 1:(14,8) Avatar 0:(23,24) Moving north.
+0:(23,24) 1:(14,8) Avatar 1:(14,8) Moving south.
+0:(23,24) 1:(14,8) Avatar 0:(23,24) Moving west.
+0:(22,24) 1:(14,8) Avatar 1:(14,8) Moving west.
+0:(22,24) 1:(13,8) Avatar 0:(22,24) Moving north.
+0:(22,24) 1:(13,8) Avatar 1:(13,8) Moving north.
+0:(22,24) 1:(13,8) Avatar 0:(22,24) Moving west.
+0:(21,24) 1:(13,8) Avatar 1:(13,8) Moving south.
+0:(21,24) 1:(13,9) Avatar 0:(21,24) Moving north.
+0:(21,24) 1:(13,9) Avatar 1:(13,9) Moving east.
+0:(21,24) 1:(14,9) Avatar 0:(21,24) Moving west.
+0:(20,24) 1:(14,9) Avatar 1:(14,9) Moving east.
+0:(20,24) 1:(14,9) Avatar 0:(20,24) Moving north.
+0:(20,23) 1:(14,9) Avatar 1:(14,9) Moving south.
+0:(20,23) 1:(14,10) Avatar 0:(20,23) Moving north.
+0:(20,23) 1:(14,10) Avatar 1:(14,10) Moving east.
+0:(20,23) 1:(14,10) Avatar 0:(20,23) Moving east.
+0:(21,23) 1:(14,10) Avatar 1:(14,10) Moving south.
+0:(21,23) 1:(14,10) Avatar 0:(21,23) Moving north.
+0:(21,23) 1:(14,10) Avatar 1:(14,10) Moving west.
+0:(21,23) 1:(13,10) Avatar 0:(21,23) Moving east.
+0:(21,23) 1:(13,10) Avatar 1:(13,10) Moving north.
+0:(21,23) 1:(13,10) Avatar 0:(21,23) Moving west.
+0:(20,23) 1:(13,10) Avatar 1:(13,10) Moving south.
+0:(20,23) 1:(13,10) Avatar 0:(20,23) Moving west.
+0:(20,23) 1:(13,10) Avatar 1:(13,10) Moving west.
+0:(20,23) 1:(12,10) Avatar 0:(20,23) Moving south.
+0:(20,24) 1:(12,10) Avatar 1:(12,10) Moving north.
+0:(20,24) 1:(12,9) Avatar 0:(20,24) Moving west.
+0:(20,24) 1:(12,9) Avatar 1:(12,9) Moving north.
+0:(20,24) 1:(12,8) Avatar 0:(20,24) Moving east.
+0:(21,24) 1:(12,8) Avatar 1:(12,8) Moving north.
+0:(21,24) 1:(12,8) Avatar 0:(21,24) Moving east.
+0:(22,24) 1:(12,8) Avatar 1:(12,8) Moving east.
+0:(22,24) 1:(12,8) Avatar 0:(22,24) Moving east.
+0:(23,24) 1:(12,8) Avatar 1:(12,8) Moving west.
+0:(23,24) 1:(11,8) Avatar 0:(23,24) Moving east.
+0:(24,24) 1:(11,8) Avatar 1:(11,8) Moving north.
+0:(24,24) 1:(11,8) Avatar 0:(24,24) Moving north.
+0:(24,23) 1:(11,8) Avatar 1:(11,8) Moving south.
+0:(24,23) 1:(11,9) Avatar 0:(24,23) Moving west.
+0:(23,23) 1:(11,9) Avatar 1:(11,9) Moving east.
+0:(23,23) 1:(11,9) Avatar 0:(23,23) Moving west.
+0:(22,23) 1:(11,9) Avatar 1:(11,9) Moving south.
+0:(22,23) 1:(11,9) Avatar 0:(22,23) Moving north.
+0:(22,22) 1:(11,9) Avatar 1:(11,9) Moving west.
+0:(22,22) 1:(10,9) Avatar 0:(22,22) Moving west.
+0:(22,22) 1:(10,9) Avatar 1:(10,9) Moving north.
+0:(22,22) 1:(10,9) Avatar 0:(22,22) Moving east.
+0:(23,22) 1:(10,9) Avatar 1:(10,9) Moving south.
+0:(23,22) 1:(10,9) Avatar 0:(23,22) Moving east.
+0:(24,22) 1:(10,9) Avatar 1:(10,9) Moving west.
+0:(24,22) 1:(9,9) Avatar 0:(24,22) Moving north.
+0:(24,21) 1:(9,9) Avatar 1:(9,9) Moving north.
+0:(24,21) 1:(9,9) Avatar 0:(24,21) Moving north.
+0:(24,20) 1:(9,9) Avatar 1:(9,9) Moving south.
+0:(24,20) 1:(9,10) Avatar 0:(24,20) Moving west.
+0:(24,20) 1:(9,10) Avatar 1:(9,10) Moving east.
+0:(24,20) 1:(9,10) Avatar 0:(24,20) Moving north.
+0:(24,19) 1:(9,10) Avatar 1:(9,10) Moving south.
+0:(24,19) 1:(9,11) Avatar 0:(24,19) Moving west.
+0:(24,19) 1:(9,11) Avatar 1:(9,11) Moving east.
+0:(24,19) 1:(9,11) Avatar 0:(24,19) Moving north.
+0:(24,18) 1:(9,11) Avatar 1:(9,11) Moving south.
+0:(24,18) 1:(9,12) Avatar 0:(24,18) Moving west.
+0:(24,18) 1:(9,12) Avatar 1:(9,12) Moving east.
+0:(24,18) 1:(9,12) Avatar 0:(24,18) Moving north.
+0:(24,17) 1:(9,12) Avatar 1:(9,12) Moving south.
+0:(24,17) 1:(9,13) Avatar 0:(24,17) Moving west.
+0:(24,17) 1:(9,13) Avatar 1:(9,13) Moving east.
+0:(24,17) 1:(9,13) Avatar 0:(24,17) Moving north.
+0:(24,16) 1:(9,13) Avatar 1:(9,13) Moving south.
+0:(24,16) 1:(9,13) Avatar 0:(24,16) Moving west.
+0:(24,16) 1:(9,13) Avatar 1:(9,13) Moving west.
+0:(24,16) 1:(8,13) Avatar 0:(24,16) Moving north.
+0:(24,15) 1:(8,13) Avatar 1:(8,13) Moving north.
+0:(24,15) 1:(8,13) Avatar 0:(24,15) Moving west.
+0:(23,15) 1:(8,13) Avatar 1:(8,13) Moving south.
+0:(23,15) 1:(8,14) Avatar 0:(23,15) Moving north.
+0:(23,15) 1:(8,14) Avatar 1:(8,14) Moving east.
+0:(23,15) 1:(8,14) Avatar 0:(23,15) Moving south.
+0:(23,16) 1:(8,14) Avatar 1:(8,14) Moving south.
+0:(23,16) 1:(8,15) Avatar 0:(23,16) Moving south.
+0:(23,17) 1:(8,15) Avatar 1:(8,15) Moving east.
+0:(23,17) 1:(8,15) Avatar 0:(23,17) Moving south.
+0:(23,18) 1:(8,15) Avatar 1:(8,15) Moving south.
+0:(23,18) 1:(8,15) Avatar 0:(23,18) Moving south.
+0:(23,19) 1:(8,15) Avatar 1:(8,15) Moving west.
+0:(23,19) 1:(7,15) Avatar 0:(23,19) Moving south.
+0:(23,20) 1:(7,15) Avatar 1:(7,15) Moving north.
+0:(23,20) 1:(7,15) Avatar 0:(23,20) Moving west.
+0:(22,20) 1:(7,15) Avatar 1:(7,15) Moving south.
+0:(22,20) 1:(7,15) Avatar 0:(22,20) Moving north.
+0:(22,20) 1:(7,15) Avatar 1:(7,15) Moving west.
+0:(22,20) 1:(7,15) Avatar 0:(22,20) Moving west.
+0:(21,20) 1:(7,15) Avatar 1:(7,15) Moving east.
+0:(21,20) 1:(8,15) Avatar 0:(21,20) Moving north.
+0:(21,20) 1:(8,15) Avatar 1:(8,15) Moving north.
+0:(21,20) 1:(8,14) Avatar 0:(21,20) Moving south.
+0:(21,21) 1:(8,14) Avatar 1:(8,14) Moving west.
+0:(21,21) 1:(7,14) Avatar 0:(21,21) Moving south.
+0:(21,22) 1:(7,14) Avatar 1:(7,14) Moving north.
+0:(21,22) 1:(7,13) Avatar 0:(21,22) Moving west.
+0:(20,22) 1:(7,13) Avatar 1:(7,13) Moving north.
+0:(20,22) 1:(7,12) Avatar 0:(20,22) Moving north.
+0:(20,21) 1:(7,12) Avatar 1:(7,12) Moving north.
+0:(20,21) 1:(7,12) Avatar 0:(20,21) Moving north.
+0:(20,20) 1:(7,12) Avatar 1:(7,12) Moving east.
+0:(20,20) 1:(7,12) Avatar 0:(20,20) Moving north.
+0:(20,20) 1:(7,12) Avatar 1:(7,12) Moving west.
+0:(20,20) 1:(6,12) Avatar 0:(20,20) Moving east.
+0:(20,20) 1:(6,12) Avatar 1:(6,12) Moving north.
+0:(20,20) 1:(6,11) Avatar 0:(20,20) Moving west.
+0:(19,20) 1:(6,11) Avatar 1:(6,11) Moving north.
+0:(19,20) 1:(6,10) Avatar 0:(19,20) Moving north.
+0:(19,20) 1:(6,10) Avatar 1:(6,10) Moving north.
+0:(19,20) 1:(6,9) Avatar 0:(19,20) Moving south.
+0:(19,20) 1:(6,9) Avatar 1:(6,9) Moving north.
+0:(19,20) 1:(6,9) Avatar 0:(19,20) Moving west.
+0:(18,20) 1:(6,9) Avatar 1:(6,9) Moving east.
+0:(18,20) 1:(6,9) Avatar 0:(18,20) Moving north.
+0:(18,19) 1:(6,9) Avatar 1:(6,9) Moving west.
+0:(18,19) 1:(5,9) Avatar 0:(18,19) Moving north.
+0:(18,19) 1:(5,9) Avatar 1:(5,9) Moving north.
+0:(18,19) 1:(5,8) Avatar 0:(18,19) Moving east.
+0:(19,19) 1:(5,8) Avatar 1:(5,8) Moving north.
+0:(19,19) 1:(5,8) Avatar 0:(19,19) Moving north.
+0:(19,18) 1:(5,8) Avatar 1:(5,8) Moving east.
+0:(19,18) 1:(5,8) Avatar 0:(19,18) Moving north.
+0:(19,17) 1:(5,8) Avatar 1:(5,8) Moving west.
+0:(19,17) 1:(4,8) Avatar 0:(19,17) Moving north.
+0:(19,16) 1:(4,8) Avatar 1:(4,8) Moving north.
+0:(19,16) 1:(4,7) Avatar 0:(19,16) Moving north.
+0:(19,16) 1:(4,7) Avatar 1:(4,7) Moving north.
+0:(19,16) 1:(4,7) Avatar 0:(19,16) Moving east.
+0:(19,16) 1:(4,7) Avatar 1:(4,7) Moving east.
+0:(19,16) 1:(5,7) Avatar 0:(19,16) Moving west.
+0:(18,16) 1:(5,7) Avatar 1:(5,7) Moving north.
+0:(18,16) 1:(5,6) Avatar 0:(18,16) Moving north.
+0:(18,15) 1:(5,6) Avatar 1:(5,6) Moving north.
+0:(18,15) 1:(5,5) Avatar 0:(18,15) Moving north.
+0:(18,14) 1:(5,5) Avatar 1:(5,5) Moving north.
+0:(18,14) 1:(5,5) Avatar 0:(18,14) Moving north.
+0:(18,14) 1:(5,5) Avatar 1:(5,5) Moving east.
+0:(18,14) 1:(5,5) Avatar 0:(18,14) Moving east.
+0:(18,14) 1:(5,5) Avatar 1:(5,5) Moving west.
+0:(18,14) 1:(5,5) Avatar 0:(18,14) Moving west.
+0:(17,14) 1:(5,5) Avatar 1:(5,5) Moving south.
+0:(17,14) 1:(5,6) Avatar 0:(17,14) Moving north.
+0:(17,14) 1:(5,6) Avatar 1:(5,6) Moving east.
+0:(17,14) 1:(6,6) Avatar 0:(17,14) Moving south.
+0:(17,14) 1:(6,6) Avatar 1:(6,6) Moving north.
+0:(17,14) 1:(6,6) Avatar 0:(17,14) Moving west.
+0:(16,14) 1:(6,6) Avatar 1:(6,6) Moving east.
+0:(16,14) 1:(6,6) Avatar 0:(16,14) Moving north.
+0:(16,13) 1:(6,6) Avatar 1:(6,6) Moving south.
+0:(16,13) 1:(6,6) Avatar 0:(16,13) Moving north.
+0:(16,13) 1:(6,6) Avatar 1:(6,6) Moving west.
+0:(16,13) 1:(5,6) Avatar 0:(16,13) Moving east.
+0:(17,13) 1:(5,6) Avatar 1:(5,6) Moving west.
+0:(17,13) 1:(4,6) Avatar 0:(17,13) Moving north.
+0:(17,12) 1:(4,6) Avatar 1:(4,6) Moving north.
+0:(17,12) 1:(4,6) Avatar 0:(17,12) Moving north.
+0:(17,12) 1:(4,6) Avatar 1:(4,6) Moving west.
+0:(17,12) 1:(4,6) Avatar 0:(17,12) Moving east.
+0:(18,12) 1:(4,6) Avatar 1:(4,6) Moving east.
+0:(18,12) 1:(5,6) Avatar 0:(18,12) Moving north.
+0:(18,12) 1:(5,6) Avatar 1:(5,6) Moving south.
+0:(18,12) 1:(5,7) Avatar 0:(18,12) Moving east.
+0:(19,12) 1:(5,7) Avatar 1:(5,7) Moving east.
+0:(19,12) 1:(5,7) Avatar 0:(19,12) Moving north.
+0:(19,11) 1:(5,7) Avatar 1:(5,7) Moving west.
+0:(19,11) 1:(4,7) Avatar 0:(19,11) Moving north.
+0:(19,11) 1:(4,7) Avatar 1:(4,7) Moving west.
+0:(19,11) 1:(4,7) Avatar 0:(19,11) Moving east.
+0:(19,11) 1:(4,7) Avatar 1:(4,7) Moving south.
+0:(19,11) 1:(4,8) Avatar 0:(19,11) Moving west.
+0:(18,11) 1:(4,8) Avatar 1:(4,8) Moving south.
+0:(18,11) 1:(4,9) Avatar 0:(18,11) Moving north.
+0:(18,11) 1:(4,9) Avatar 1:(4,9) Moving east.
+0:(18,11) 1:(4,9) Avatar 0:(18,11) Moving west.
+0:(17,11) 1:(4,9) Avatar 1:(4,9) Moving south.
+0:(17,11) 1:(4,9) Avatar 0:(17,11) Moving north.
+0:(17,11) 1:(4,9) Avatar 1:(4,9) Moving west.
+0:(17,11) 1:(4,9) Avatar 0:(17,11) Moving west.
+0:(16,11) 1:(4,9) Avatar 1:(4,9) Moving north.
+0:(16,11) 1:(4,8) Avatar 0:(16,11) Moving north.
+0:(16,10) 1:(4,8) Avatar 1:(4,8) Moving west.
+0:(16,10) 1:(4,8) Avatar 0:(16,10) Moving north.
+0:(16,9) 1:(4,8) Avatar 1:(4,8) Moving east.
+0:(16,9) 1:(5,8) Avatar 0:(16,9) Moving north.
+0:(16,9) 1:(5,8) Avatar 1:(5,8) Moving south.
+0:(16,9) 1:(5,9) Avatar 0:(16,9) Moving east.
+0:(17,9) 1:(5,9) Avatar 1:(5,9) Moving south.
+0:(17,9) 1:(5,10) Avatar 0:(17,9) Moving north.
+0:(17,8) 1:(5,10) Avatar 1:(5,10) Moving east.
+0:(17,8) 1:(5,10) Avatar 0:(17,8) Moving north.
+0:(17,8) 1:(5,10) Avatar 1:(5,10) Moving south.
+0:(17,8) 1:(5,10) Avatar 0:(17,8) Moving east.
+0:(17,8) 1:(5,10) Avatar 1:(5,10) Moving west.
+0:(17,8) 1:(4,10) Avatar 0:(17,8) Moving west.
+0:(16,8) 1:(4,10) Avatar 1:(4,10) Moving south.
+0:(16,8) 1:(4,11) Avatar 0:(16,8) Moving north.
+0:(16,7) 1:(4,11) Avatar 1:(4,11) Moving east.
+0:(16,7) 1:(4,11) Avatar 0:(16,7) Moving east.
+0:(17,7) 1:(4,11) Avatar 1:(4,11) Moving north.
+0:(17,7) 1:(4,10) Avatar 0:(17,7) Moving east.
+0:(18,7) 1:(4,10) Avatar 1:(4,10) Moving east.
+0:(18,7) 1:(5,10) Avatar 0:(18,7) Moving north.
+0:(18,6) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(18,6) 1:(5,10) Avatar 0:(18,6) Moving north.
+0:(18,5) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(18,5) 1:(5,10) Avatar 0:(18,5) Moving north.
+0:(18,4) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(18,4) 1:(5,10) Avatar 0:(18,4) Moving west.
+0:(17,4) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(17,4) 1:(5,10) Avatar 0:(17,4) Moving north.
+0:(17,3) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(17,3) 1:(5,10) Avatar 0:(17,3) Moving north.
+0:(17,2) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(17,2) 1:(5,10) Avatar 0:(17,2) Moving west.
+0:(16,2) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(16,2) 1:(5,10) Avatar 0:(16,2) Moving west.
+0:(15,2) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(15,2) 1:(5,10) Avatar 0:(15,2) Moving south.
+0:(15,3) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(15,3) 1:(5,10) Avatar 0:(15,3) Moving west.
+0:(14,3) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(14,3) 1:(5,10) Avatar 0:(14,3) Moving west.
+0:(13,3) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(13,3) 1:(5,10) Avatar 0:(13,3) Moving south.
+0:(13,4) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(13,4) 1:(5,10) Avatar 0:(13,4) Moving east.
+0:(14,4) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(14,4) 1:(5,10) Avatar 0:(14,4) Moving south.
+0:(14,5) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(14,5) 1:(5,10) Avatar 0:(14,5) Moving south.
+0:(14,6) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(14,6) 1:(5,10) Avatar 0:(14,6) Moving east.
+0:(15,6) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(15,6) 1:(5,10) Avatar 0:(15,6) Moving south.
+0:(15,7) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(15,7) 1:(5,10) Avatar 0:(15,7) Moving west.
+0:(14,7) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(14,7) 1:(5,10) Avatar 0:(14,7) Moving south.
+0:(14,8) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(14,8) 1:(5,10) Avatar 0:(14,8) Moving west.
+0:(13,8) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(13,8) 1:(5,10) Avatar 0:(13,8) Moving south.
+0:(13,9) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(13,9) 1:(5,10) Avatar 0:(13,9) Moving east.
+0:(14,9) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(14,9) 1:(5,10) Avatar 0:(14,9) Moving south.
+0:(14,10) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(14,10) 1:(5,10) Avatar 0:(14,10) Moving west.
+0:(13,10) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(13,10) 1:(5,10) Avatar 0:(13,10) Moving west.
+0:(12,10) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(12,10) 1:(5,10) Avatar 0:(12,10) Moving north.
+0:(12,9) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(12,9) 1:(5,10) Avatar 0:(12,9) Moving north.
+0:(12,8) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(12,8) 1:(5,10) Avatar 0:(12,8) Moving west.
+0:(11,8) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(11,8) 1:(5,10) Avatar 0:(11,8) Moving south.
+0:(11,9) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(11,9) 1:(5,10) Avatar 0:(11,9) Moving west.
+0:(10,9) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(10,9) 1:(5,10) Avatar 0:(10,9) Moving west.
+0:(9,9) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(9,9) 1:(5,10) Avatar 0:(9,9) Moving south.
+0:(9,10) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(9,10) 1:(5,10) Avatar 0:(9,10) Moving south.
+0:(9,11) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(9,11) 1:(5,10) Avatar 0:(9,11) Moving south.
+0:(9,12) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(9,12) 1:(5,10) Avatar 0:(9,12) Moving south.
+0:(9,13) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(9,13) 1:(5,10) Avatar 0:(9,13) Moving west.
+0:(8,13) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(8,13) 1:(5,10) Avatar 0:(8,13) Moving south.
+0:(8,14) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(8,14) 1:(5,10) Avatar 0:(8,14) Moving west.
+0:(7,14) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(7,14) 1:(5,10) Avatar 0:(7,14) Moving north.
+0:(7,13) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(7,13) 1:(5,10) Avatar 0:(7,13) Moving north.
+0:(7,12) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(7,12) 1:(5,10) Avatar 0:(7,12) Moving west.
+0:(6,12) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(6,12) 1:(5,10) Avatar 0:(6,12) Moving north.
+0:(6,11) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(6,11) 1:(5,10) Avatar 0:(6,11) Moving north.
+0:(6,10) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(6,10) 1:(5,10) Avatar 0:(6,10) Moving north.
+0:(6,9) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(6,9) 1:(5,10) Avatar 0:(6,9) Moving west.
+0:(5,9) 1:(5,10) Avatar 1:(5,10) Sleeping.
+0:(5,9) 1:(5,10) Avatar 0:(5,9) Moving south.
+AM_MAZE_SOLVED 2 4 416 -1990100817
